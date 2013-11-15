@@ -1,255 +1,28 @@
-body {
-  font-family: 'Lato', sans-serif;
-  color: #a1a194;
-}
-@keyframes "beat" {
-  0% {
-    font-size: 112px;
-  }
-  50% {
-    font-size: 82px;
-  }
-  100% {
-    font-size: 112px;
-  }
-}
-@-moz-keyframes beat {
-  0% {
-    font-size: 112px;
-  }
-  50% {
-    font-size: 82px;
-  }
-  100% {
-    font-size: 112px;
-  }
-}
-@-webkit-keyframes "beat" {
-  0% {
-    font-size: 100px;
-  }
-  50% {
-    font-size: 82px;
-  }
-  100% {
-    font-size: 100px;
-  }
-}
-@-ms-keyframes "beat" {
-  0% {
-    font-size: 100px;
-  }
-  50% {
-    font-size: 82px;
-  }
-  100% {
-    font-size: 100px;
-  }
-}
-@-o-keyframes "beat" {
-  0% {
-    font-size: 100px;
-  }
-  50% {
-    font-size: 82px;
-  }
-  100% {
-    font-size: 100px;
-  }
-}
-.top-header {
-  padding-bottom: 10px;
-  padding-top: 20px;
-  text-align: center;
-}
-.top-header h1 {
-  font-weight: 100;
-  font-size: 100px;
-  line-height: 1em;
-}
-.top-header h1 .heart-block {
-  display: inline-block;
-  width: 125px;
-  height: 100px;
-}
-.top-header i.heart-red {
-  -webkit-animation: beat 2s infinite;
-  -moz-animation: beat 2s infinite;
-  -ms-animation: beat 2s infinite;
-  -o-animation: beat 2s infinite;
-  animation: beat 2s infinite;
-}
-.top-header i.heart-red:hover {
-  -webkit-animation: beat 1s infinite;
-  -moz-animation: beat 1s infinite;
-  -ms-animation: beat 1s infinite;
-  -o-animation: beat 1s infinite;
-  animation: beat 1s infinite;
-}
-.top-tagline {
-  padding-left: 20%;
-  padding-right: 20%;
-}
-.top-tagline h2 {
-  text-align: center;
-  font-weight: 300;
-  font-size: 24px;
-  padding-top: 20px;
-  color: #a1a194;
-}
-.top-tagline h3 {
-  text-align: center;
-  font-weight: 300;
-  font-size: 20px;
-  color: #a1a194;
-}
-.top-nav {
-  text-align: center;
-  font-weight: 100;
-  font-size: 48px;
-  padding-bottom: 10px;
-  padding-top: 20px;
-}
-.top-nav li {
-  display: inline;
-  list-style-type: none;
-  padding: 4px;
-  font-size: 14px;
-}
-.top-nav a {
-  color: #a1a194;
-}
-.top-nav a:hover {
-  text-decoration: none;
-}
-.top-nav .icon-twitter {
-  padding: 8px;
-  border-radius: 25px;
-  border: 2px solid #bfbfbf;
-}
-.top-nav .icon-twitter:hover {
-  color: #4099ff;
-}
-.top-nav .icon-google-plus {
-  padding: 8px;
-  border-radius: 25px;
-  border: 2px solid #bfbfbf;
-}
-.top-nav .icon-google-plus:hover {
-  color: #d34836;
-}
-.top-nav img {
-  opacity: 0.7;
-}
-.top-nav img:hover {
-  opacity: 1.0;
-}
-.top-links h2 {
-  text-align: center;
-  font-weight: 300;
-  font-size: 2em;
-  padding-bottom: 10px;
-  padding-top: 20px;
-}
-.top-links a:hover {
-  text-decoration: none;
-}
-.updates {
-  padding-right: 20%;
-  padding-left: 20%;
-}
-.updates h2 {
-  text-align: center;
-  font-weight: 300;
-  font-size: 18px;
-  padding-bottom: 10px;
-  padding-top: 20px;
-}
-.updates a:hover {
-  text-decoration: none;
-}
-.heart-red {
-  color: #d63431;
-}
-.project-box {
-  height: 100px;
-  margin: 5px;
-  background-color: #d63431;
-}
-.row-content {
-  width: 60%;
-  padding-left: 20%;
-}
-.blogpage .span12 h1 {
-  font-weight: 100;
-  font-size: 3em;
-  text-align: left;
-  line-height: 0.75em;
-}
-.blogpage .span12 .posts article {
-  margin-bottom: 2em;
-  padding: 3em;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
-  background: white;
-  border-radius: 3px;
-}
-.blogpage .span12 .posts article .img-circle {
-  border-radius: 500px;
-  height: 8em;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-.blogpage .span12 .posts article a {
-  font-size: 2em;
-  font-weight: 500;
-  color: #66667D;
-  margin-bottom: 4em;
-}
-.blogpage .span12 .posts article h2 {
-  font-size: 1em;
-  font-weight: 500;
-  color: #7FC241;
-}
-.blogpage .span12 .posts article h3 {
-  width: 100%;
-  font-weight: 300;
-}
-.blogpage .span12 .posts article .share-article {
-  list-style-type: none;
-  float: right;
-  position: relative;
-  top: -8em;
-}
-.blogpage .span12 .posts article .share-article li {
-  padding-bottom: 1em;
-  font-size: 1.5em;
-  cursor: pointer;
-}
-.blogpage .span12 .posts article .share-article li:first-child:hover i {
-  color: #00A9EA;
-}
-.blogpage .span12 .posts article .share-article li:nth-child(2):hover i {
-  color: #4A66A0;
-}
-.blogpage .span12 .posts article .share-article li:last-child:hover i {
-  color: #DD4C39;
-}
-@media only screen and (max-width: 479px) {
-  .row-content {
-    width: 100%;
-    padding-left: 0;
-    text-align: center;
-  }
-  .row-content .span9 h1 {
-    text-align: center;
-  }
-  .row-content .blogpage .span12 .posts article .share-article {
-    float: none;
-    top: 0;
-    position: relative;
-  }
-  .row-content .blogpage .span12 .posts article .share-article li {
-    display: inline-block;
-    padding-right: 15px;
-  }
-}
+body{font-family:'Lato',sans-serif;color:#a1a194}
+@keyframes "beat"{0%{font-size:112px} 50%{font-size:82px} 100%{font-size:112px}}@-moz-keyframes beat{0%{font-size:112px} 50%{font-size:82px} 100%{font-size:112px}}@-webkit-keyframes "beat"{0%{font-size:100px} 50%{font-size:82px} 100%{font-size:100px}}@-ms-keyframes "beat"{0%{font-size:100px} 50%{font-size:82px} 100%{font-size:100px}}@-o-keyframes "beat"{0%{font-size:100px} 50%{font-size:82px} 100%{font-size:100px}}.top-header{padding-bottom:10px;padding-top:20px;text-align:center}.top-header h1{font-weight:100;font-size:100px;line-height:1em}.top-header h1 .heart-block{display:inline-block;width:125px;height:100px}
+.top-header i.heart-red{-webkit-animation:beat 2s infinite;-moz-animation:beat 2s infinite;-ms-animation:beat 2s infinite;-o-animation:beat 2s infinite;animation:beat 2s infinite}.top-header i.heart-red:hover{-webkit-animation:beat 1s infinite;-moz-animation:beat 1s infinite;-ms-animation:beat 1s infinite;-o-animation:beat 1s infinite;animation:beat 1s infinite}
+.top-tagline{padding-left:20%;padding-right:20%}.top-tagline h2{text-align:center;font-weight:300;font-size:24px;padding-top:20px;color:#a1a194}
+.top-tagline h3{text-align:center;font-weight:300;font-size:20px;color:#a1a194}
+.top-nav{text-align:center;font-weight:100;font-size:48px;padding-bottom:10px;padding-top:20px}.top-nav li{display:inline;list-style-type:none;padding:4px;font-size:14px}
+.top-nav a{color:#a1a194}.top-nav a:hover{text-decoration:none}
+.top-nav .icon-twitter{padding:8px;border-radius:25px;border:2px solid #bfbfbf}.top-nav .icon-twitter:hover{color:#4099ff}
+.top-nav .icon-google-plus{padding:8px;border-radius:25px;border:2px solid #bfbfbf}.top-nav .icon-google-plus:hover{color:#d34836}
+.top-nav img{opacity:.7}.top-nav img:hover{opacity:1}
+.top-links h2{text-align:center;font-weight:300;font-size:2em;padding-bottom:10px;padding-top:20px}
+.top-links a:hover{text-decoration:none}
+a{text-decoration:none;font-weight:400;color:#a1a194}a:hover{text-decoration:none;font-weight:400;color:#a1a194}
+.updates{padding-right:20%;padding-left:20%}.updates h2{text-align:center;font-weight:300;font-size:18px;padding-bottom:10px;padding-top:20px}
+.updates a:hover{text-decoration:none}
+.heart-red{color:#d63431}
+.project-box{height:100px;margin:5px;background-color:#d63431}
+.row-content{width:60%;padding-left:20%}
+.blogpage .span12 h1{font-weight:100;font-size:3em;text-align:left;line-height:.75em}
+.blogpage .span12 .posts article{margin-bottom:2em;padding:3em;border:1px solid rgba(0,0,0,0.1);box-shadow:1px 2px 4px rgba(0,0,0,0.1);background:#fff;border-radius:3px}.blogpage .span12 .posts article .img-circle{border-radius:500px;height:8em;border:1px solid rgba(0,0,0,0.1)}
+.blogpage .span12 .posts article a{font-size:2em;font-weight:500;color:#66667d;margin-bottom:4em}
+.blogpage .span12 .posts article h2{font-size:1em;font-weight:500;color:#7fc241}
+.blogpage .span12 .posts article h3{width:100%;font-weight:300}
+.blogpage .span12 .posts article .share-article{list-style-type:none;float:right;position:relative;top:-8em}.blogpage .span12 .posts article .share-article li{padding-bottom:1em;font-size:1.5em;cursor:pointer}
+.blogpage .span12 .posts article .share-article li:first-child:hover i{color:#00a9ea}
+.blogpage .span12 .posts article .share-article li:nth-child(2):hover i{color:#4a66a0}
+.blogpage .span12 .posts article .share-article li:last-child:hover i{color:#dd4c39}
+@media only screen and (max-width:479px){.row-content{width:100%;padding-left:0;text-align:center}.row-content .span9 h1{text-align:center} .row-content .blogpage .span12 .posts article .share-article{float:none;top:0;position:relative}.row-content .blogpage .span12 .posts article .share-article li{display:inline-block;padding-right:15px}}
