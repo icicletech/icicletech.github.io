@@ -17,7 +17,7 @@ a{text-decoration:none;font-weight:400;color:#a1a194}a:hover{text-decoration:non
 .project-box{height:100px;margin:5px;background-color:#d63431}
 .row-content{width:60%;padding-left:20%}
 .blogpage .span12 h1{font-weight:300;font-size:3em;text-align:left;line-height:.75em;margin-left:-5px}
-.blogpage .span12 .posts article{margin-bottom:2em;padding:1.5em 2em 1em 3em;border:1px solid rgba(0,0,0,0.1);box-shadow:1px 2px 4px rgba(0,0,0,0.1);background:#fff;border-radius:3px}.blogpage .span12 .posts article .img-circle{border-radius:500px;height:8em;border:1px solid rgba(0,0,0,0.1)}
+.blogpage .span12 .posts article{margin-bottom:2em;padding:1.5em 2em 1em 3em;border:1px solid rgba(0,0,0,0.1);background:#fff;border-radius:3px}.blogpage .span12 .posts article .img-circle{border-radius:500px;height:8em;border:1px solid rgba(0,0,0,0.1)}
 .blogpage .span12 .posts article a:first-child{padding-right:10px}
 .blogpage .span12 .posts article h2{font-size:1em;font-weight:500;color:#7fc241;font-style:italic}
 .blogpage .span12 .posts article h3{width:100%;font-weight:300;font-size:18px}.blogpage .span12 .posts article h3 i{padding-right:5px}
