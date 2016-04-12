@@ -12,19 +12,20 @@ span.gray{color:#9d92a1;}
 .top-links h2{text-align:center;font-weight:300;font-size:2em;padding-bottom:10px;padding-top:20px;}
 .top-links a:hover{text-decoration:none;}
 a{text-decoration:none;font-weight:300;color:#0E83CD;}a:hover{text-decoration:none;color:#E74C3C;}
-.updates{padding-right:20%;padding-left:20%;}.updates h2{text-align:center;font-weight:300;font-size:18px;padding-bottom:10px;padding-top:20px;}
+.updates{padding-right:20%;padding-left:20%; padding-bottom: 10%;}.updates h2{text-align:center;font-weight:300;font-size:18px;padding-bottom:10px;padding-top:20px;}
 .updates a:hover{text-decoration:none;}
 .heart-red{color:#d63431;}
 .project-box{height:100px;margin:5px;background-color:#d63431;}
 .row-content{width:60%;padding-left:20%;}
 .blogpage .span12 h1{font-weight:300;font-size:3em;text-align:left;line-height:0.75em;margin-left:-5px;}
-.blogpage .span12 .posts article{margin-bottom:2em;padding:1.5em 2em 1em 3em;border:1px solid rgba(0, 0, 0, 0.1);background:white;border-radius:3px;}.blogpage .span12 .posts article .img-circle{border-radius:500px;height:8em;border:1px solid rgba(0, 0, 0, 0.1);}
+.blogpage .span12 .posts article{margin-bottom:2em;padding:1.5em 2em 3em 3em;border:1px solid rgba(0, 0, 0, 0.1);background:white;border-radius:3px;}.blogpage .span12 .posts article .img-circle{border-radius:500px;height:8em;border:1px solid rgba(0, 0, 0, 0.1);}
 .blogpage .span12 .posts article a:first-child{padding-right:10px;}
 .blogpage .span12 .posts article h2{font-size:1em;font-weight:500;color:#7fc241;font-style:italic;}
-.blogpage .span12 .posts article h3{width:100%;font-weight:300;font-size:18px;}.blogpage .span12 .posts article h3 i{padding-right:5px;}
+.blogpage .span12 .posts article h3{width:100%;font-weight:300;font-size:18px; color: #666; line-height: 32px;}.blogpage .span12 .posts article h3 i{padding-right:5px;}
 .blogpage .span12 .posts article .share-article{list-style-type:none;float:right;position:relative;top:-8em;}.blogpage .span12 .posts article .share-article li{padding-bottom:1em;font-size:1.5em;cursor:pointer;}
 .blogpage .span12 .posts article .share-article li:first-child:hover i{color:#00A9EA;}
 .blogpage .span12 .posts article .share-article li:nth-child(2):hover i{color:#4A66A0;}
 .blogpage .span12 .posts article .share-article li:last-child:hover i{color:#DD4C39;}
 .blogpage .span12 .posts article .project-example{text-align:center;margin-top:5%;}
+.color-gray {color: #3f4944;}
 @media only screen and (max-width:479px){.row-content{width:100%;padding-left:0;text-align:center;}.row-content .span9 h1{text-align:center;} .row-content .blogpage .span12 .posts article .share-article{float:none;top:0;position:relative;}.row-content .blogpage .span12 .posts article .share-article li{display:inline-block;padding-right:15px;}}
